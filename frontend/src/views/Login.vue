@@ -75,10 +75,6 @@ export default {
   name: "login",
   data() {
     return {
-      validCredentials: {
-        username: "lightscope",
-        password: "lightscope"
-      },
       model: {
         username: "",
         password: ""
@@ -109,52 +105,17 @@ export default {
     };
   },
   methods: {
-    simulateLogin() {
-      return new Promise(resolve => {
-        setTimeout(resolve, 800);
-      });
-    },
     pushSignUp() {
         this.$router.push('/signup')
     },
     login() {
         var r = this.$router
        setTimeout(function(){ r.push('/home') }, 1000);
-        /*const response = await axios.post('https://hackviolet21.herokuapp.com/post_login/',
-        {
-            Username: this.username,
-            Password: this.password,
-            Facebook: null,
-            Google: null
-        }
-      )*/
-      /*if (response.data == true) {
-          this.$router.push('/home')
-      } else {
-          this.$message.error("Username or password is invalid");
-      }*/
-      /*let valid = await this.$refs.form.validate();
-      if (!valid) {
-        return;
-      }
-      this.loading = true;
-      await this.simulateLogin();
-      this.loading = false;
-      if (
-        this.model.username === this.validCredentials.username &&
-        this.model.password === this.validCredentials.password
-      ) {
-        this.$message.success("Login successfull");
-        this.$router.push('/home')
-      } else {
-        this.$message.error("Username or password is invalid");
-      }*/
     }
   }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .login {
   flex: 1;
