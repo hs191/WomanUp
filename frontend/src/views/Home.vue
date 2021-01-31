@@ -178,11 +178,6 @@ export default {
             fishing: false
         }
     },
-    /*watch: {
-        search(value) {
-            let search = value.toLowerCase()
-        },
-    },*/
     computed: {
     },
     methods: {
