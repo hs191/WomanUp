@@ -138,31 +138,11 @@ export default {
             Facebook: null,
             EmailID: this.email
         })
-      /*const response = await axios.post('https://hackviolet21.herokuapp.com/post_signup/', json
-      )*/
-
-
-      /*let valid = await this.$refs.form.validate();
-      if (!valid) {
-        return;
-      }
-      this.loading = true;
-      await this.simulateSignUp();
-      this.loading = false;
-      if (
-        this.model.username === this.validCredentials.username &&
-        this.model.password === this.validCredentials.password
-      ) {
-        this.$message.success("Sign up successfull");
-      } else {
-        this.$message.error("Username or password is invalid");
-      }*/
     }
   }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .signup {
   flex: 1;
