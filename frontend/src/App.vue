@@ -42,10 +42,6 @@
 </template>
 
 <script>
-//import { mapActions, mapGetters } from 'vuex'
-//import state from './store/index.js'
-
-
 export default {
     name: 'App',
     data() {
