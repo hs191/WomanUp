@@ -77,7 +77,6 @@
 </template>
 
 <script>
-import {BASE_URL} from '../api.js'
 export default {
     data() {
         return {
