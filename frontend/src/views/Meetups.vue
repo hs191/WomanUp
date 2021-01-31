@@ -21,38 +21,6 @@
 
     <span class="meetup" style="padding-right:20px; font-size:20px">
         <a @click="dialogVisible = true">Create a meetup!</a>
-    <!--<el-card>
-      <h2>Can't find the perfect meet up? Create one yourself!</h2>
-      <el-form
-        class="meetup-form"
-        :model="model"
-        :rules="rules"
-        ref="form"
-        @submit.native.prevent="create">
-
-        <el-form-item>
-          <v-text-field v-model="model.subject" label="Subject" filled rounded style="padding-left: 20px; padding-right: 20px"></v-text-field>
-        </el-form-item>
-        <el-form-item>
-          <v-text-field v-model="model.location" label="Location" filled rounded style="padding-left: 20px; padding-right: 20px"></v-text-field>
-        </el-form-item>
-        <el-form-item>
-          <v-text-field v-model="model.date" label="Date" filled rounded style="padding-left: 20px; padding-right: 20px"></v-text-field>
-        </el-form-item>
-        <el-form-item>
-          <v-textarea v-model="model.description" label="Description" filled rounded style="width:600px"></v-textarea>
-        </el-form-item>
-        <el-form-item>
-          <el-button
-            :loading="loading"
-            class="create-button"
-            type="primary"
-            native-type="submit"
-            block
-          >Create</el-button>
-        </el-form-item>
-      </el-form>
-    </el-card>-->
     </span>
     </div>
     <el-dialog
