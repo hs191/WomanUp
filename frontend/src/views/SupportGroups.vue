@@ -29,8 +29,7 @@
                     </div>
                 </div>
                 <div class="conversation" style="border:solid black">
-                    <!-- <img src="images/profiles/daryl.png" alt="daryl" /> -->
-                    <div class="title-text">
+                   <div class="title-text">
                         Cool Vegan Recipes
                     </div><br>
                     <div class="created-date">
@@ -44,7 +43,6 @@
             
             <div class="chat-title">
                 <span>Coding Interview Prep</span>
-                <!-- <img src="images/icons/trash-logo.svg" alt="Delete Conversation" /> -->
             </div>
             <div class="chat-message-list">
                 <div class="message-row you-message">
