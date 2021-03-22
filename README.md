@@ -1,5 +1,5 @@
 # WomanUp
-Frontend code for WomanUp web app
+Frontend code for WomanUp web app built for HackViolet Hackathon
 
 Background image used on Login page: https://cdn4.vectorstock.com/i/1000x1000/09/73/diverse-international-group-standing-happy-vector-23850973.jpg
 
